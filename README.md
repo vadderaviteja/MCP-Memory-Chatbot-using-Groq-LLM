@@ -85,14 +85,16 @@ Example:
 
 ```
 {
-  "servers": {
-    "airbnb": {
-      "command": "node",
-      "args": ["server.js"],
-      "transport": "stdio"
+    "mcpServers": {
+      "airbnb": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@openbnb/mcp-server-airbnb"
+        ]
+      }
     }
   }
-}
 ```
 
 ---
